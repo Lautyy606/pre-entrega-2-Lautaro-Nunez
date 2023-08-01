@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Ubuntu:wght@300&display=swap');
+
 html {
     min-height: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     background-image: url(../img/fondo/fondo-pagina-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
