@@ -1,0 +1,67 @@
+html {
+    min-height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../img/fondo/fondo-pagina-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+textarea {
+    resize: none;
+}
+
+.fondo {
+    background-image: url(../img/fondo/fondo-pagina-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+}
+
+.fondo h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.row h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.productos {
+    margin-top: 3rem;
+    text-transform: uppercase;
+    background-image: url(../img/fondo/fondo-pagina-4.jpg)
+}
+
+.local {
+    height: 650px;
+    width: 50%;
+    border-radius: 2rem;
+    margin-right: 20px;
+}
+
+.video {
+    width: 100%;
+    border-radius: 6px;
+    height: 100%;
+}
+
+.parrafo {
+    font-size: 30px;
+}
+
+iframe {
+    height: 25rem;
+    width: 70%;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.nosotros-header {
+    background-image: url(../img/local/local-gl.jpg);
+    height: 30rem;
+    background-repeat: no-repeat;
+}
