@@ -1,0 +1,21 @@
+main {
+    background-image: url(../img/fondo/fondo-pagina-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+
+   h1 {
+        font-size: $tituloh1;
+        font-family: 'Bebas Neue', sans-serif;
+        text-transform: uppercase;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: $tituloh2;
+        text-transform: uppercase;
+    }
+}

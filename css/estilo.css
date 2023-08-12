@@ -1,69 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Ubuntu:wght@300&display=swap');
-
-html {
-    min-height: 100%;
-    font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/fondo/fondo-pagina-4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Ubuntu:wght@300&display=swap");
+main {
+  background-image: url(../img/fondo/fondo-pagina-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+}
+main h1 {
+  font-size: 2rem;
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+main h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
+.parrafoInfo {
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.6rem;
+}
+
+/* INDEX */
+.categorias {
+  transition: 0.7s;
+}
+
+.categorias:hover {
+  transform: scale(1.1);
+}
+
+/* PRODUCTOS */
+.boton {
+  transition: 0.5s;
+}
+
+.boton:hover {
+  transform: scale(1.1);
+}
+
+p {
+  font-family: "Abril Fatface", cursive;
+}
+
+/* CONTACTO */
 textarea {
-    resize: none;
+  resize: none;
 }
 
-.fondo {
-    background-image: url(../img/fondo/fondo-pagina-4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    background-position: center;
-}
-
-.fondo h1 {
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-
-.row h2 {
-    text-transform: uppercase;
-    font-size: 1.5rem;
-}
-
-.productos {
-    margin-top: 3rem;
-    text-transform: uppercase;
-    background-image: url(../img/fondo/fondo-pagina-4.jpg)
-}
-
-.local {
-    height: 650px;
-    width: 50%;
-    border-radius: 2rem;
-    margin-right: 20px;
+/* NOSOTROS */
+.nosotros {
+  background-color: rgba(0, 0, 0, 0.5019607843);
 }
 
 .video {
-    width: 100%;
-    border-radius: 6px;
-    height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  height: 100%;
 }
 
-.parrafo {
-    font-size: 30px;
+/* INFORMACIÓN */
+.info {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 iframe {
-    height: 25rem;
-    width: 70%;
+  height: 25rem;
+  width: 70%;
 }
 
-h2 {
-    text-transform: uppercase;
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.nosotros-header {
-    background-image: url(../img/local/local-gl.jpg);
-    height: 30rem;
-    background-repeat: no-repeat;
-}
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Ubuntu:wght@300&display=swap');
+
+@import "variables";
+@import "main";
+@import "mixin";
+
+/* INDEX */
+
+.categorias {
+    transition: 0.7s;
+}
+
+.categorias:hover {
+    transform: scale(1.1);
+}
+
+/* PRODUCTOS */
+
+.boton {
+    transition: 0.5s;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* CONTACTO */
+    
+ textarea {
+    resize: none;
+ }
+
+ /* NOSOTROS */
+
+.nosotros {
+    background-color: #00000080;
+}
+
+.video {
+    width: 100%;
+    border-radius: 6px;
+    height: 100%;
+}
+
+/* INFORMACIÓN */ 
+
+.info {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+iframe {
+    height: 25rem;
+    width: 70%;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #00000033;
+}

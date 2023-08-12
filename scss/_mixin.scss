@@ -1,0 +1,9 @@
+@mixin parrafo {
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.6rem;
+}
+
+.parrafoInfo {
+    @include parrafo;
+}
